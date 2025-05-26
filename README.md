@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -59,3 +60,9 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# Full-Stack_Dynamic_Portfolio
+![photo_6167998350943700205_y](https://github.com/user-attachments/assets/5ecd49d7-f3dc-48d1-878e-3bc453f5ceb9)
+![photo_6167998350943700204_y](https://github.com/user-attachments/assets/aac77c04-a0d5-431e-ac90-1fa5f1a20bc6)
+
+>>>>>>> 53cdeb119c4c3e1f350984d90761ac7354fb2f39
