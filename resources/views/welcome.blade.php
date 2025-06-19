@@ -16,20 +16,33 @@
     </nav>
   </header>
 
-  <section>
-    <img src="https://via.placeholder.com/300" alt="Profile Picture" />
-    <div>
+  <section class="main">
+    <img src="{{ asset('assets/immage/lol.jpg') }}" alt="Profile Picture" class="profile-img" />
+    <div class="intro">
       <h1>Hello</h1>
       <strong>A Bit About Me</strong>
       <p>
-        I am Adnan  Morshed. I am a web developer. I love to create Buty!
+        I am Adnan Morshed. I am a web developer. I love to create beauty!
       </p>
-      <div>
-        <a href="#resume">Resume</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+
+      <!-- ✅ Buttons Section -->
+      <div class="buttons">
+      <p id="response-text"></p>
+
+      <div class="buttons">
+  <a href="#resume" class="resume-btn">Resume</a>
+  <a href="#projects" class="projects-btn">Projects</a>
+  <a href="#contact" class="contact-btn">Contact</a>
+</div>
+
+<p id="message"></p>
+
+
       </div>
     </div>
   </section>
+
+  <script src="{{ asset('assets/js/script.js') }}"></script>
 </body>
 </html>
+
