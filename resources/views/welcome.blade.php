@@ -26,7 +26,7 @@
       </p>
 
       <!-- ✅ Buttons Section -->
-      <div class="buttons">
+      <div class="button">
       <p id="response-text"></p>
 
       <div class="buttons">
