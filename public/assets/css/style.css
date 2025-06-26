@@ -136,8 +136,8 @@ body {
 .contact-popup {
   display: none;
   position: absolute;
-  top: 120%;
-  left: 0;
+  top: 100%;
+  right: -120%;
   background-color: rgb(211, 202, 202);
   padding: 10px 15px;
   border-radius: 8px;
