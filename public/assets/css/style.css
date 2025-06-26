@@ -82,4 +82,86 @@ body {
   .contact-btn {
     background-color: #7fdbff;
   }
+  #resume {
+    padding: 60px 40px;
+    background-color: white;
+  }
   
+  #resume h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #resume h3 {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  #resume ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  #resume li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  #projects {
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+  }
+  
+  #projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #projects .project-card {
+    flex: 1 1 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  #projects a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  .contact-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .contact-popup {
+    display: none;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    width: 200px;
+  }
+  
+  .contact-wrapper:hover .contact-popup {
+    display: block;
+  }
+  
+  .contact-popup p {
+    margin: 10px 0;
+  }
+  
+  .contact-popup a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .contact-popup a:hover {
+    color: #007bff;
+  }
+      

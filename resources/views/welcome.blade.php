@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Creative CV</title>
-  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-</head>
-<body>
-  <header>
-    <div>Adnan Morshed</div>
-    <nav>
-      <a href="#resume">Resume</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+@extends('index')
+@push('style')
+<title>Creative CV</title>
+@endpush
+@section('main-content')
 
   <section class="main">
     <img src="{{ asset('assets/immage/lol.jpg') }}" alt="Profile Picture" class="profile-img" />
@@ -30,9 +18,20 @@
       <p id="response-text"></p>
 
       <div class="buttons">
-  <a href="#resume" class="resume-btn">Resume</a>
-  <a href="#projects" class="projects-btn">Projects</a>
+  <a href="{{url('/resume.blade.php')}}" class="resume-btn">Resume</a>
+  <a href="{{url('/projects.blade.php')}}" class="projects-btn">Projects</a>
+  <div class="contact-wrapper">
   <a href="#contact" class="contact-btn">Contact</a>
+  <div class="contact-popup">
+    <p><a href="mailto:adnan@example.com" target="_blank">📧 Email</a></p>
+    <p><a href="https://facebook.com/dummyprofile" target="_blank">📘 Facebook</a></p>
+    <p><a href="https://linkedin.com/in/dummyprofile" target="_blank">🔗 LinkedIn</a></p>
+    <p><a href="https://instagram.com/dummyprofile" target="_blank">📸 Instagram</a></p>
+    <p><a href="https://wa.me/1234567890" target="_blank">💬 WhatsApp</a></p>
+  </div>
+</div>
+
+
 </div>
 
 <p id="message"></p>
@@ -41,8 +40,7 @@
       </div>
     </div>
   </section>
+  @endsection
+ 
 
-  <script src="{{ asset('assets/js/script.js') }}"></script>
-</body>
-</html>
 
