@@ -5,7 +5,7 @@ for (let i = 0; i < menu.length; i++) {
       alert(`You clicked on: ${event.target.innerText}`);
     });
 }
-// Get the Contact button and the message element
+// Contact button and the message element
 const contactBtn = document.querySelector('.contact-btn');
 const messageEl = document.getElementById('message');
 

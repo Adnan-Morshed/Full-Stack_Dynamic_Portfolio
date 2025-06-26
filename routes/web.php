@@ -8,9 +8,9 @@ Route::get('/', function () {
 Route::get('/index', function () {
     return view('index');
 });
-Route::get('/resume.blade.php', function () {
+Route::get('/resume', function () {
     return view('resume');
 });
-Route::get('/projects.blade.php', function () {
+Route::get('/projects', function () {
     return view('projects');
 });

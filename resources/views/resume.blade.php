@@ -6,9 +6,9 @@
   <div style="margin-bottom: 40px;">
     <h3>🎓 Education</h3>
     <ul>
-      <li><strong>BSc in Computer Science</strong> – XYZ University (2020–2024)</li>
-      <li><strong>HSC</strong> – ABC College (2018–2020)</li>
-      <li><strong>SSC</strong> – DEF High School (2016–2018)</li>
+      <li><strong>BSc in Computer Science</strong> – DIU University (2020–2024)</li>
+      <li><strong>HSC</strong> – SAS College (2018–2020)</li>
+      <li><strong>SSC</strong> – SAC High School (2016–2018)</li>
     </ul>
   </div>
 

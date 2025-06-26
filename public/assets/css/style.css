@@ -146,7 +146,7 @@ body {
   white-space: nowrap;
   z-index: 10;
 }
-
+ 
 .contact-wrapper:hover .contact-popup {
   display: flex;
   gap: 10px;

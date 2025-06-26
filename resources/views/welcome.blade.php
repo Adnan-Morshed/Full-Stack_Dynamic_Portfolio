@@ -13,13 +13,13 @@
         I am Adnan Morshed. I am a web developer. I love to create beauty!
       </p>
 
-      <!-- ✅ Buttons Section -->
+      <!--Buttons Section -->
       <div class="button">
       <p id="response-text"></p>
 
       <div class="buttons">
-  <a href="{{url('/resume.blade.php')}}" class="resume-btn">Resume</a>
-  <a href="{{url('/projects.blade.php')}}" class="projects-btn">Projects</a>
+  <a href="{{url('/resume')}}" class="resume-btn">Resume</a>
+  <a href="{{url('/projects')}}" class="projects-btn">Projects</a>
   <div class="contact-wrapper">
   <a href="#contact" class="contact-btn">Contact</a>
   <div class="contact-popup">
