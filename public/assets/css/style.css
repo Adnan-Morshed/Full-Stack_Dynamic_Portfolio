@@ -128,41 +128,41 @@ body {
     text-decoration: none;
     color: #007bff;
   }
-  .contact-wrapper {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .contact-popup {
-    display: none;
-    position: absolute;
-    top: 120%;
-    left: 0;
-    background-color: white;
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-    width: 200px;
-  }
-  
-  .contact-wrapper:hover .contact-popup {
-    display: block;
-  }
-  
-  .contact-popup p {
-    background-color: rgb(211, 202, 202);
-    margin: 10px 0;
-  }
-  
-  .contact-popup a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-  }
-  
-  .contact-popup a:hover {
-    color: #007bff;
-  }
+ .contact-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.contact-popup {
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  background-color: rgb(211, 202, 202);
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.contact-wrapper:hover .contact-popup {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contact-popup a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease;
+}
+
+.contact-popup a:hover {
+  transform: scale(1.2);
+  color: #007bff;
+}
+
       
